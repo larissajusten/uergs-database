@@ -1,0 +1,18 @@
+Problema: Dificuldade de comunicação entre os  alunos que precisam de carona e os alunos que oferecem as caronas. Em razão disso, alguns motoristas fazem o percurso de ida/voltta sozinhos ou com poucas pessoas. 
+
+Oportunidade percebida: Oportunidade de criação de um aplicativo no decorrer da cadeira de banco de dados com o conhecimento adquirido na mesma que supra o problema.
+
+Produto: Um aplicativo de estrutura simples, onde o motorista se cadastra e divulga sua disponibilidade para caronas, e o passageiro consiga contato com o motorista de forma simples e rápida. Passageiros cadastrados podem solicitar reserva (possivel nova versão).
+
+Requisitos: 
+>Funcionais
+	-O aplicativo permite ao motorista se cadastrar
+	-O aplicativo permite ao motorista manter suas informações de disponibilidade de carona
+	-O aplicativo permite usuarios não cadastrados visualizar as inf. dos motoristas
+	-O aplicativo permite usuarios cadastrados solicitar reserva
+	-O aplicativo permite usuarios cadastrados cancelar reserva
+	-O aplicativo permite a todos usuarios verem as informações das disponibilidades e reservas
+
+>Não Funcionais
+	-Um sistema operacional Android, a partir da versão 4.2
+	-Acesso a internet 

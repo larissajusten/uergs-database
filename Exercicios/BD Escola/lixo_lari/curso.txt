@@ -1,0 +1,28 @@
+﻿===Base de Dados bd escola am
+
+== 
+Estrutura da tabela curso
+
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|
+//**idcurso**//|int(10)|Não|
+
+|descricao|varchar(45)|Não|
+
+|cargaHoraria|int(10)|Não|
+
+
+== Extraindo dados da tabela curso
+
+
+
+|1|Eng de Computação|4000
+
+|2|Sistemas Embarcados|3200
+
+|3|Automação|800
+
+|4|Pedagogia|500

@@ -1,0 +1,66 @@
+1. Redundancia de Dados 
+Redundância na verdade tem exatamente a mesma característica até no português. Na língua portuguesa, dizer "sair pra fora", "subir pra cima", "metades iguais", "países do mundo" (...) é considerado redundante (e também dão o nome de pleonasmo vicioso), isso ocorre porque existe um repetição, dizendo a mesma coisa duas vezes. A diferença é que a palavra redundancia na computação, é algo benefico, ao contrario da lingua portuguesa.
+Sempre que não quiser perder os dados, por exemplo para o banco de dados é ideal que possua redundância de discos, backups espalhados e servidores ao redor do mundo. Isso irá garantir que os dados vão estar disponíveis sempre que precisar e que nenhum dado será perdido, assim atingindo os dois objetivos.
+
+
+2. SGBD - "O que é" & "Funções"
+Sistema de Gerenciamento de Banco de Dados é uma coleção de programas que permitem ao usuário definir, construir e manipular Bases de Dados para as mais diversas finalidades. Podemos dizer que os SGBD, vieram para eliminar todo o trabalho que anteriormente um programador de aplicação realizava controlando o acesso, integridade e redundância dos dados. Os SGBD tem como funções: gerenciamento do dicionario de dados, do armazenamento de dados; controle de redundancias; gerenciamento de segurança; métodos de acesso; integridade semantica; gerenciamento de backup e recuperação; segurança; concorrencia e independencia.
+
+
+3.Dados são fatos brutos, que ainda não sofreram nenhum processamento. Já a informação, é a ordenação e organização dos dados de forma a transmitir significado e compreensão dentro de um determinado contexto. É o resultado do processamento dos dados.
+
+
+4. SGBD - "Papel" & "Vantagens/Desvantagens"
+Ser o intermediario entre o usuário e o BD, permitir que os dadosdo banco sejam compartilhados em diversas aplicações e usuários. Tornar o gerenciamento dos dados mais eficiente e eficaz.
+	Vantagens >
+	Aprimoramento do compartilhamento e da segurança de dados. Minimiza a inconsistencia dos dados. Aprimoramento da tomada de decisões, do acesso dos dados e da produtividade do usuário final.
+	Desvantagens >
+	Aumento de Custos. Complexidade de gerenciamento. Manutenção do banco de dados atualizado. Manutenção do banco de dados atualizado. Dependência do fornecedor. Ciclos frequentes de atualização/substituição.
+
+
+5. Tipos de BD
+>Modelo de Dados Hierarquico:
+	Os dados são estruturados em hierarquias ou árvores. cada nó da hierarquia contêm registros, e cada registro é uma coleção de campos(atributos) contendo apenas as informações.
+	Os dados são acessados segundo uma sequência hierárquica com a navegação do topo para as folhas, e da esquerda para a direita.
+
+>Modelo de Dados em Rede:
+	Nesse modelo, os registros são organizados em grafos, onde temos um unico tipo de associação (set) que define uma relação 1:N entre os 2 tipos de registros (Proprietario e Membro)
+
+>Modelo de Dados Relacional:
+	O modelo relacional é baseado na teoria dos conjuntos e álgebra relacional.
+	A estrutura fundamental do modelo é a relação(tabela), nela temos um ou mais atributos (campos) que tem o tipo de dados para armazenar.
+	cada linha na tabela chamamos de tupla.
+	Não apenas as estruturas de dados, mas também os relacionamentos entre as estruturas e os caminhos de acesso a elas.
+
+>Orientado a Objetos:
+	Cada informação é armazenada em forma de objetos. Os objetos que compartilham caracteristicas similare são agrupados em classes. Os atributos descrevem as propriedades de um objeto.
+
+
+6. O que são metadados
+	São dados sobre outros dados. Um item de um metadado pode dizer do que se trata aquele dado, geralmente uma informação inteligível por um computador. Os metadados facilitam o entendimento dos relacionamentos e a utilidade das informações dos dados. Os metadados descritos por Dublin Core podem ser definidos como conjunto de elementos de metadados planejados para facilitar a descrição de recursos eletrônicos.
+	Exemplos: Nome, Artista e Álbum acerca de uma música; Horário e posição geográfica de uma foto.
+
+
+7. Projeto de BD - "Importancia"
+Por que facilita o gerenciamento de dados e gera informações precisas e valiosas.
+
+
+8. BD - "Existentes comercialmente" & "Aplicações":
+	MySQL – Um dos sistemas mais populares do mundo e é open source. Este é um dos sistemas que mais evoluiu nos últimos anos, ele é um banco que providencia segurança e é ideal para grandes aplicações e indicado para novos desenvolvedores. Ele utiliza a linguagem SQL como interface.
+	PostgreSQL – Também conhecido como Postgree é um sistema gerenciador de banco de dados (SGBD) objeto relacional. Trata-se de outro projeto open source, ou seja, foi desenvolvido e vem sendo melhorado por diversas pessoas ao redor do mundo através do seu código aberto.
+	MSSQL – O sistema desenvolvido pela Microsoft também é relacional. É um sistema grande, assim como o Oracle oferece amplo suporte aos aplicativos críticos e à soluções de big data.
+	MongoDB – Um banco de dados flexível, de alta performance e orientado a documentos. É utilizado por grandes empresas como Cisco, Github, Globo.com, Linkedin e diversas outras para gerenciar aplicações de Big Data – onde é preciso gerenciar uma grande quantidade de dados.
+
+
+9. BD - Mercados Financeiros
+	Temos a ferramenta LAFIS que engloba um banco de dados SQL com informações completas e atualizadas sobre análises fundamentalistas, macroeconômicas e do setor da economia brasileira.
+	
+
+10. Mineração de Dados - "Aplicações"
+É o processo de explorar grandes quantidades de dados à procura de padrões consistentes.
+Aplicações: Telecomunicações, Comercio, Finanças, Medicina, Ação Social, Educação, Energia, Industria, Seguros, Arrecadação de Impostos e Comportamento de Redes Sociais Online.
+
+
+11. Dashboards - "O que são"
+Dashboards são painéis que mostram métricas e indicadores importantes para alcançar objetivos e metas traçadas de forma visual, facilitando a compreensão das informações geradas. O principal objetivo do dashboard enquanto painel de informações é facilitar o acompanhamento eficiente das operações de uma empresa. Dessa forma, a ferramenta serve ao propósito de promover a transparência corporativa. Há também o propósito de promover o engajamento e a integração de colaboradores dos diversos setores da empresa.
+ 

@@ -1,0 +1,11 @@
+[gd_resource type="Theme" load_steps=2 format=2]
+
+[ext_resource path="res://style/item_theme_panel.tres" type="StyleBox" id=1]
+
+[resource]
+
+Panel/styles/panel = ExtResource( 1 )
+Panel/styles/panelf = null
+Panel/styles/panelnc = null
+_sections_unfolded = [ "Panel", "Panel/styles" ]
+

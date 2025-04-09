@@ -1,0 +1,20 @@
+Cubo Olap (Sistemas, onde aplicados):
+	Capacidade para manipular e analisar um grande volume de dados sob múltiplas perspectivas. A funcionalidade OLAP é inicialmente caracterizada pela análise dinâmica e multidimensional dos dados consolidados de uma organização permitindo que as atividades do usuário final sejam tanto analíticas quanto navegacionais. As ferramentas OLAP (do inglês, Online Analytical Processing) são geralmente desenvolvidas para trabalhar com banco de dados desnormalizados. Essas ferramentas são capazes de navegar pelos dados de um Data Warehouse, possuindo uma estrutura adequada tanto para a realização de pesquisas como para a apresentação de informações.
+
+Ontologia:
+Existem na literatura várias definições para o termo ontologia em Ciência da Computação. Ontologia é uma especificação de uma conceitualização, ou seja, é uma descrição de conceitos e relacionamentos que existem entre estes conceitos. Esta definição genérica, bastante diferente do sentido filosófico de ontologia, considera as ontologias apenas como um conjunto de conceitos e definições.
+Entretanto, apesar de apresentarem diferentes definições, escritores, afirmam que o principal propósito da construção de ontologias é permitir compartilhamento e reutilização de conhecimento.
+	Principais Usos: Recuperação de informações na Internet, Processamento de Linguagem Natural, Gestão do Conhecimento, Web-Semântica e Educação.
+
+Data warehouse: 
+Depósito de dados digitais que serve para armazenar informações detalhadas relativamente a uma empresa, criando e organizando relatórios através de históricos que são depois usados pela empresa para ajudar a tomar decisões importantes com base nos fatos apresentados.
+
+Metadados:
+	São dados sobre outros dados. Um item de um metadado pode dizer do que se trata aquele dado, geralmente uma informação inteligível por um computador. Os metadados facilitam o entendimento dos relacionamentos e a utilidade das informações dos dados. 
+Os metadados descritos por Dublin Core podem ser definidos como conjunto de elementos de metadados planejados para facilitar a descrição de recursos eletrônicos.
+	Aplicações: Web semântica.
+	Exemplos: Nome, Artista e Álbum acerca de uma música; Horário e posição geográfica de uma foto.
+
+BD Distribuídos: 
+	Em um sistema de banco de dados distribuído, o banco de dados é armazenadoem diversos computadores (nós). Os computadores, em um sistema distribuído, comunicam-se uns com os outros por intermédio de vários meios de comunicação, tais como: redes de alta velocidade, redes sem fio ou linhas telefônicas, eles não compartilham a memoria principal e o relógio.
+	A diferença principal entre sistemas de banco de dados centralizados e distribuídos é que no primeiro os dados estão localizados em um único lugar, enquanto que no outro os dados residem em diversos locais. Esta distribuição de dados é motivo de muitas preocupações e dificuldades.

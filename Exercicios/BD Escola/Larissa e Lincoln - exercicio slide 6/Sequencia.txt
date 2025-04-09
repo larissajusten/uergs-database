@@ -1,0 +1,210 @@
+####COMANDOS PRA POPULAR BD####
+
+#1 - Adicionei os 4 cursos com o seguinte comando:
+INSERT INTO `curso`(`idcurso`, `descricao`, `cargaHoraria`) VALUES (0,'Eng. Computação',4000);
+INSERT INTO `curso`(`idcurso`, `descricao`, `cargaHoraria`) VALUES (0,'Sistemas Embarcados',3200);
+INSERT INTO `curso`(`idcurso`, `descricao`, `cargaHoraria`) VALUES (0,'Automação',800);
+INSERT INTO `curso`(`idcurso`, `descricao`, `cargaHoraria`) VALUES (0,'Pedagogia',500);
+
+
+#2 - Adicionei os 31 alunos com o seguinte comando:
+#obs: os dados foram gerados no site https://www.4devs.com.br/gerador_de_pessoas
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Lincoln Schreiber',28644145037,125921007,'1997-01-29');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Larissa Justen',22714871020,470046508,'1998-06-16');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Martin Severino Lopes',75116933008,435181038,'1996-10-26');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Thales Luís Nunes',48543325064,380270845,'1998-08-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Pedro Henrique',87408699031,309755256,'1998-08-09');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Guilherme Sales',83292411068,128823884,'1997-01-05');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Alexandre Ryan Viana',83076122096,137500609,'1997-05-05');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Leandro Nathan Peixoto',19061225043,494254877,'1997-05-25');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Aurora Luana Rodrigues',05197958065,407091956,'1998-05-25');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Valentina Ana',09364568095,121672463,'1999-05-25');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Sophia Fernandes',31816989037,230520698,'1999-12-25');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Isabelly Sara',15599332080,488838708,'1999-03-25');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Tatiane Emanuelly',19838211010,360523328,'1999-03-10');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Joana Bárbara Vieira',60015954021,342874378,'1995-03-12');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Letícia Cláudia Nascimento',96239309095,228255417,'1993-08-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Flávia Ester Pietra Souza',92984967020,432370043,'1996-08-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Rita Sebastiana Freitas',41751856070,343725848,'1996-12-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Heloise Mirella Porto',23620745013,463848949,'1996-01-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Lavínia Vera Silveira',16369010006,215869758,'1996-02-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Bianca Nair Mariana Almada',76836994030,424080059,'1996-03-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Larissa Elza da Mota',91430017007,481871111,'1996-04-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Marina Patrícia Stefany Dias',57801743008,343496823,'1996-05-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Regina Amanda Vieira',63178304010,102558103,'1996-06-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Sebastiana Jennifer Esther Pinto',02929979062,219511305,'1996-07-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Beatriz Débora Brenda Jesus',34591459004,142002276,'1996-08-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Marcela Lúcia Yasmin Sales',46051411038,105148908,'1996-09-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Mirella Tereza Oliveira',99915196024,147772941,'1996-10-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Larissa Luiza Castro',79715225098,148187675,'1996-11-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Márcia Larissa Silvana Drumond',107758015,148187675,'1998-11-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Kauê Vinicius Costa',56609730008,303770053,'1998-05-18');
+INSERT INTO `aluno`(`nroMatricula`, `nome`, `CPF`, `RG`, `dtNascimento`) VALUES (0,'Joaquim Francisco Mendes',09107004001,197724863,'1998-06-18');
+
+
+#3 - Adicionei as turmas com o seguinte comando:
+##Eng. Computação(id 1)
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-03-18','2017-07-12',1);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-08-18','2017-12-20',1);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-03-18','2018-07-12',1);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-08-18','2018-12-20',1);
+##Sistemas Embarcados(id 2)
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-03-18','2017-07-12',2);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-08-18','2017-12-20',2);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-03-18','2018-07-12',2);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-08-18','2018-12-20',2);
+##Automação(id 3)
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-03-18','2017-07-12',3);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-08-18','2017-12-20',3);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-03-18','2018-07-12',3);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-08-18','2018-12-20',3);
+##Pedagogia(id 4)
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-03-18','2017-07-12',4);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2017-08-18','2017-12-20',4);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-03-18','2018-07-12',4);
+INSERT INTO `turma`(`idTurma`, `dtInicio`, `dtFim`, `idCurso`) VALUES (0,'2018-08-18','2018-12-20',4);
+
+#4 - Matriculas com o seguinte comando:
+##Obs: Turmas 1 (curso eng. computação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (01,1,'2017-03-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (02,1,'2017-03-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (15,1,'2017-03-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (16,1,'2017-03-17',1000);
+##Obs: Turmas 2 (curso eng. computação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (07,2,'2017-08-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (03,2,'2017-08-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (04,2,'2017-08-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (17,2,'2017-08-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (05,2,'2017-08-17',1200);
+##Obs: Turmas 3 (curso eng. computação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (23,3,'2018-03-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (24,3,'2018-03-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (25,3,'2018-03-17',1400);
+##Obs: Turmas 4 (curso eng. computação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (21,4,'2018-08-17',1600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (22,4,'2018-08-17',1600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (25,4,'2018-08-17',1600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (26,4,'2018-08-17',1600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (18,4,'2018-08-17',1600);
+##Obs: Turmas 5 (curso Sistemas Embarcados)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (01,5,'2017-03-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (02,5,'2017-03-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (03,5,'2017-03-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (04,5,'2017-03-17',1000);
+##Obs: Turmas 6 (curso Sistemas Embarcados)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (09,6,'2017-08-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (10,6,'2017-08-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (11,6,'2017-08-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (12,6,'2017-08-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (13,6,'2017-08-17',800);
+##Obs: Turmas 7 (curso Sistemas Embarcados)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (18,7,'2018-03-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (19,7,'2018-03-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (20,7,'2018-03-17',1200);
+##Obs: Turmas 8 (curso Sistemas Embarcados)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (25,8,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (26,8,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (27,8,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (28,8,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (29,8,'2018-08-17',1400);
+##Obs: Turmas 9 (curso Automação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (02,9,'2017-03-17',600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (09,9,'2017-03-17',600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (10,9,'2017-03-17',600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (11,9,'2017-03-17',600);
+##Obs: Turmas 10 (curso Automação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (01,10,'2017-08-17',600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (03,10,'2017-08-17',600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (04,10,'2017-08-17',600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (05,10,'2017-08-17',600);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (06,10,'2017-08-17',600);
+##Obs: Turmas 11 (curso Automação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (31,11,'2018-03-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (30,11,'2018-03-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (29,11,'2018-03-17',800);
+##Obs: Turmas 12 (curso Automação)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (24,12,'2018-08-17',1100);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (23,12,'2018-08-17',1100);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (22,12,'2018-08-17',1100);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (21,12,'2018-08-17',1100);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (20,12,'2018-08-17',1100);
+##Obs: Turmas 13 (curso Pedagogia)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (12,13,'2017-03-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (21,13,'2017-03-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (05,13,'2017-03-17',800);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (06,13,'2017-03-17',800);
+##Obs: Turmas 14 (curso Pedagogia)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (07,14,'2017-08-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (03,14,'2017-08-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (04,14,'2017-08-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (17,14,'2017-08-17',1000);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (05,14,'2017-08-17',1000);
+##Obs: Turmas 15 (curso Pedagogia)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (23,15,'2018-03-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (24,15,'2018-03-17',1200);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (25,15,'2018-03-17',1200);
+##Obs: Turmas 16 (curso Pedagogia)
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (21,16,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (22,16,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (25,16,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (26,16,'2018-08-17',1400);
+INSERT INTO `matricula`(`nroMatricula`, `idTurma`, `dtMatricula`, `valor`) VALUES (18,16,'2018-08-17',1400);
+
+
+####COMANDOS DE LISTAGEM####
+#Listar todos os alunos que são do curso ENG. COMPUTAÇÃO
+select aluno.nome from aluno where aluno.nroMatricula in (SELECT matricula.nroMatricula FROM matricula WHERE matricula.idTurma in (select turma.idTurma from turma where turma.idCurso in (SELECT idCurso from curso where descricao LIKE 'Eng% Comp%')))
+
+#Listar todos os alunos que são do curso SISTEMAS EMBARCADOS
+select aluno.nome from aluno where aluno.nroMatricula in (SELECT matricula.nroMatricula FROM matricula WHERE matricula.idTurma in (select turma.idTurma from turma where turma.idCurso in (SELECT idCurso from curso where descricao LIKE '%Embarcados')))
+
+#Listar todos os alunos que são do curso PEDAGOGIA
+select aluno.nome from aluno where aluno.nroMatricula in (SELECT matricula.nroMatricula FROM matricula WHERE matricula.idTurma in (select turma.idTurma from turma where turma.idCurso in (SELECT idCurso from curso where descricao LIKE 'Pedagogia')))
+
+#Listar todos os alunos que são do curso AUTOMAÇÃO
+select aluno.nome from aluno where aluno.nroMatricula in (SELECT matricula.nroMatricula FROM matricula WHERE matricula.idTurma in (select turma.idTurma from turma where turma.idCurso in (SELECT idCurso from curso where descricao LIKE 'automa%')))
+
+#(EXTRA)Listar todas as turmas que iniciaram em MARÇO e terminaram em JULHO
+SELECT turma.idTurma FROM turma WHERE ( MONTH(turma.dtInicio) = 3 and MONTH(turma.dtFim) = 7)
+
+#Listar todos os curso que iniciaram em MARÇO e terminaram em JULHO
+SELECT curso.descricao FROM curso WHERE curso.idcurso IN (SELECT turma.idCurso FROM turma WHERE ( MONTH(turma.dtInicio) = 3 and MONTH(turma.dtFim) = 7) )
+
+
+#Listar todos as matriculas realizadas no ano de 20 e que tenham sido superiores a R$1000,00 ???
+##Listar todos as matriculas realizadas no ano de 2017 e que tenham sido superiores a R$1000,00
+SELECT matricula.nroMatricula, matricula.idTurma FROM matricula WHERE (YEAR(matricula.dtMatricula) = 2017 AND matricula.valor >= 1000)
+
+##Listar todos as matriculas realizadas no ano de 2018 e que tenham sido superiores a R$1000,00
+SELECT matricula.nroMatricula, matricula.idTurma FROM matricula WHERE (YEAR(matricula.dtMatricula) = 2018 AND matricula.valor >= 1000)
+
+#Listar todas as turmas do curso de SISTEMAS EMBARCADOS
+select turma.idTurma from turma where turma.idCurso in (SELECT idCurso from curso where descricao LIKE '%Embarcados')
+
+#Listar quantas turmas tem no curso de SISTEMAS EMBARCADOS
+select count(*) AS 'Numero de turmas' from turma where turma.idCurso in (SELECT idCurso from curso where descricao LIKE '%Embarcados')
+
+#Alterar a carga horária dos cursos com menos de 800 horas para 880 horas
+UPDATE curso SET curso.cargaHoraria = 880 WHERE curso.cargaHoraria < 800
+
+#Listar quais as cargas horárias existentes no cursos
+SELECT curso.cargaHoraria FROM curso
+
+#Quantos alunos estão frequentando cursos acima de 1000 horas 
+SELECT count(*) AS 'NUMERO DE ALUNOS COM MAIS DE 1000 hrs' FROM aluno WHERE aluno.nroMatricula in (SELECT matricula.nroMatricula FROM matricula WHERE matricula.idTurma IN (SELECT turma.idTurma from turma where turma.idCurso in (SELECT curso.idcurso from curso where curso.cargaHoraria >= 1000 )))
+
+
+
+
+
+
+
+
+
+
+
+
+select turma.idTurma from turma where (SELECT idCurso from curso where descricao LIKE 'Eng.%') = turma.idCurso
+
+
+SELECT matricula.nroMatricula FROM matricula WHERE matricula.idTurma = (select turma.idTurma from turma where (SELECT idCurso from curso where descricao LIKE 'Eng.%') = turma.idCurso)

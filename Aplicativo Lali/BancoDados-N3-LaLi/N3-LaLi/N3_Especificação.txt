@@ -1,0 +1,10 @@
+
+-> Em todas as consultas já realizadas,apresentar os nomes de campos com um "cabeçalho" mais apropriado, evitando aparecer o nome do campo como realmente está no BD. 
+
+-> Implementar no BD pelo menos 4 Views complexas
+
+-> Mostrar a listagem de pelo menos 1 view, se possível pelo PHP (ou outra LP usada).
+
+-> A implementação de pelo menos 1 CRUD e  pelo menos uma consulta com inner join.
+
+-> Fazer apresentação de todo o projeto (2,0)

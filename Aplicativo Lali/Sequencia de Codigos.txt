@@ -1,0 +1,102 @@
+--
+-- Database: lali_db
+--
+
+
+-- Primeiro - Criamos as tabelas###
+
+-- Criamos a tabela "motorista"
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `motorista`
+--
+CREATE TABLE motorista(
+	idMotorista INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+	Nome VARCHAR(45) NOT NULL,
+	Telefone FLOAT UNSIGNED NOT NULL,
+	Email VARCHAR(45) NOT NULL,
+	Endereco_Cidade VARCHAR(45) NOT NULL,
+	PRIMARY KEY (idMotorista)
+	)
+
+-- Criamos a tabela do "passageiro"
+CREATE TABLE passageiro(
+	idPassageiro INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+	Nome VARCHAR(45) NOT NULL,
+	Telefone FLOAT UNSIGNED NOT NULL,
+	Email VARCHAR(45) NOT NULL,
+	Endereco_Cidade VARCHAR(45) NOT NULL,
+	PRIMARY KEY (idPassageiro)
+	)
+
+-- Criamos a tabela "carona"
+CREATE TABLE carona(
+	idCarona INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+    Data DATE NOT NULL,
+    Partida VARCHAR(45) NOT NULL,
+    Chegada VARCHAR(45) NOT NULL,
+    Horario TIME(4) NOT NULL,
+    Valor FLOAT UNSIGNED NOT NULL,
+    Veiculo VARCHAR(20) NOT NULL,
+    Numero_Vagas INTEGER UNSIGNED NOT NULL,
+    Repetir VARCHAR(30),
+    idMotorista INTEGER UNSIGNED NOT NULL,
+    
+	PRIMARY KEY (idCarona),
+    
+    CONSTRAINT idMotorista FOREIGN KEY idMotorista (idMotorista) 
+    REFERENCES motorista(idMotorista) 
+    ON DELETE RESTRICT ON UPDATE RESTRICT
+	)
+
+
+-- Criamos a tabela "locais_de_parada"
+CREATE TABLE locais_de_parada(
+	idParada INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+    Descricao VARCHAR(45) NOT NULL,
+    idCarona INTEGER UNSIGNED NOT NULL,
+    
+    PRIMARY KEY (idParada),
+    
+    CONSTRAINT idCarona FOREIGN KEY idCarona (idCarona) 
+    REFERENCES carona(idCarona) 
+    ON DELETE RESTRICT ON UPDATE RESTRICT
+    )
+
+
+-- Criamos a tabela "solicitar_carona"
+CREATE TABLE solicitar_carona(
+	idPassageiro INTEGER UNSIGNED NOT NULL,
+	idCarona INTEGER UNSIGNED NOT NULL,
+	Local_Escolhido VARCHAR(45) NOT NULL,
+    Status BINARY NOT NULL,
+	
+    CONSTRAINT idPassageiro_ FOREIGN KEY (idPassageiro) 
+    REFERENCES passageiro(idPassageiro),
+    
+    CONSTRAINT idCarona_ FOREIGN KEY (idCarona) 
+    REFERENCES carona(idCarona) 
+	)
+
+
+-- Criamos a tabela "avaliacao"
+CREATE TABLE avaliacao(
+	idAvaliacao INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+	Nota FLOAT NOT NULL,
+	Numero_Notas FLOAT NOT NULL,
+	idPassageiro INTEGER UNSIGNED NOT NULL, 
+	IdMotorista INTEGER UNSIGNED NOT NULL,
+    
+    PRIMARY KEY (idAvaliacao),
+	
+    CONSTRAINT idPassageiro FOREIGN KEY (idPassageiro) 
+    REFERENCES passageiro(idPassageiro),
+    
+    CONSTRAINT idMotorista_ FOREIGN KEY (idMotorista) 
+    REFERENCES motorista(idMotorista) 
+	)
+
+
+-- Segundo 
